@@ -1,3 +1,4 @@
+
 # 💬 React Native Real-Time Chat App
 
 A simple yet powerful real-time chat application built using **React Native (frontend)** and **Node.js + Socket.IO (backend)**.
@@ -50,10 +51,13 @@ chat-app/
 │   ├── package.json
 │   └── ...
 └── README.md
+```
+
+---
 
 ## ⚙️ How to Run
 
-### 🖥️ Backend (Node.js)
+### 💻 Backend (Node.js)
 
 Navigate to the backend folder:
 
@@ -61,9 +65,16 @@ Navigate to the backend folder:
 cd backend
 npm install
 npm start
+```
 
-This starts the Socket.IO server at http://localhost:5000
-You’ll see logs like Server running on port 5000.
+This starts the Socket.IO server at `http://localhost:5000`  
+You’ll see logs like:
+
+```
+Server running on port 5000.
+```
+
+---
 
 ### 📱 Frontend (React Native)
 
@@ -73,16 +84,22 @@ Navigate to the frontend folder:
 cd frontend
 npm install
 npx expo start
+```
 
-Scan the QR code using Expo Go app on your Android/iOS phone
-(Make sure your phone and PC are on the same Wi-Fi network)
+Then:
 
-You can also run it on an emulator or using Expo DevTools in browser
+- Scan the QR code using **Expo Go** app on your Android/iOS phone  
+- *(Make sure your phone and PC are on the same Wi-Fi network)*
+
+You can also run it on:
+
+- Android/iOS **emulator**  
+- Or using **Expo DevTools** in the browser
+
+---
 
 ## ✍️ Author
 
-👨‍💻 Developed by **[Prateek Kumar]**  
-📧 Email: **prateekkmr3151@gmail.com**  
+👨‍💻 Developed by **Prateek Kumar**  
+📧 Email: [prateekkmr3151@gmail.com](mailto:prateekkmr3151@gmail.com)  
 🌐 GitHub: [github.com/prateekCodeLab](https://github.com/prateekCodeLab)
-
-
